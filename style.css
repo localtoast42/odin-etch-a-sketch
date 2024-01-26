@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.grid-row {
+    display: flex;
+}
+
 .grid-item {
     margin: 8px;
     height: 50px;

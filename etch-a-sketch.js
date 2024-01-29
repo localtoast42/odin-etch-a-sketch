@@ -28,8 +28,14 @@ const gridResetButton = document.querySelector('.grid-reset-btn');
 
 gridResetButton.addEventListener('click', () => {
     let numPerSide = prompt("Enter number of squares per side:")
-    resetGrid();
-    generateGrid(numPerSide);
+    if (numPerSide > 100) {
+        alert('Exceeded maximum value of 100! Enter a lower number.')
+    } else if (numPerSide < 1) {
+        alert('Enter a value greater than zero.')
+    } else {
+        resetGrid();
+        generateGrid(numPerSide);
+    };
 });
 
 generateGrid(4);

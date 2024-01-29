@@ -8,7 +8,12 @@ for (let i = 0; i < 4; i++) {
         const col_div = document.createElement('div');
         col_div.setAttribute('id', 'row' + i + 'col' + j); 
         col_div.classList.add('grid-item');
+        col_div.addEventListener("mouseover", () => {
+            col_div.classList.add('grid-item-hover');
+        });
         row_div.appendChild(col_div);
     }
     container.appendChild(row_div);
 };
+
+const lol = addEventListener()

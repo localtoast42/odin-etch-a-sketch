@@ -15,5 +15,3 @@ for (let i = 0; i < 4; i++) {
     }
     container.appendChild(row_div);
 };
-
-const lol = addEventListener()

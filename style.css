@@ -24,7 +24,7 @@
 }
 
 .grid-item {
-    margin: 8px;
+    margin: 0;
     width: 100px;
     flex: 1 1 auto;
     background-color: grey;

@@ -1,3 +1,8 @@
+body {
+    height: 100vh;
+    background-color: grey;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -27,7 +32,7 @@
     margin: 0;
     width: 100px;
     flex: 1 1 auto;
-    background-color: grey;
+    background-color: white;
 }
 
 .grid-item-hover {
